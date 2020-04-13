@@ -31,7 +31,7 @@ for example:
 	HG002   -       HG002   HG002   ILLUMINA        HG002   HG002   -       -       -       -       -      --       -       569     95      568.177944      163.819637      -       35.41  
 
 
-the Columns of "sample","mean_insert_size","insert_size_sd" and "coverage" are required in the step of feature extraction.  
+the Columns of "sample", "mean_insert_size", "insert_size_sd" and "coverage" are required in the step of feature extraction.  
 
 Run "$HOME/CNV-PG/CNV-P/CNV-P_predict.sh" to  classify candidate CNV:  
 
@@ -64,7 +64,7 @@ Similar to the CNV-P, Run "$HOME/CNV-PG/CNV-P/CNV-G_predict.sh -h" to see the us
         -n SAMPLENAME \
         -c $HOME/CNV-PG/CNV-P \
 
-The "BEDFILE" shuld be 5 Columns: chromsome,start,end,size of CNV,type of CNV(DUP:1,DEL:0); this also can be generate by CNV-P(such as CNVCALLER.SAMPLENAME.fil.mer.bed)  
+The "BEDFILE" shuld be 5 Columns: chromsome, start, end, size of CNV, type of CNV (DUP:1,DEL:0); this also can be generate by CNV-P (such as CNVCALLER.SAMPLENAME.fil.mer.bed)  
 for example:  
 
 	chr1    10482480        10483779        1300    0
