@@ -52,7 +52,7 @@ CNVCALLER.SAMPLENAME.pre.prop.txt # the results of predicting which provide cate
 
 
 ### 2.CNV-G  
-####Runing:  
+#### Runing:  
 Similar to the CNV-P, Run "$HOME/CNV-PG/CNV-P/CNV-G_predict.sh -h" to see the usage information.  
 
 	$HOME/CNV-PG/CNV-P/CNV-P_predict.sh \  
